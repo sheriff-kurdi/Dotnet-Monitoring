@@ -1,0 +1,6 @@
+@Tracing.Store_HostAddress = http://localhost:5273
+
+GET {{Tracing.Store_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
